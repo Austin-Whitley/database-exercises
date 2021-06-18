@@ -8,4 +8,5 @@ CREATE TABLE albums(
     sales DOUBLE UNSIGNED NOT NULL,
     genre VARCHAR(25),
     PRIMARY KEY (id)
+
 );
