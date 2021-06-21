@@ -20,8 +20,8 @@ WHERE emp_no < 10026;
 -- lets chain together what we learned
 SELECT emp_no, first_name, last_name FROM employees
 WHERE emp_no < 20000
-    AND last_name IN ('Herber', 'Baek')
-   OR first_name = 'Shridhar';
+AND last_name IN ('Herber', 'Baek')
+OR first_name = 'Shridhar';
 
 SELECT * FROM salaries WHERE salary BETWEEN 50000 AND 100000;
 -- or we can say:
